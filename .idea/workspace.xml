@@ -1,29 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cccff57f-eccb-4e3f-99e4-3c60dd3c4056" name="Default Changelist" comment="" />
+    <list default="true" id="cccff57f-eccb-4e3f-99e4-3c60dd3c4056" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/LinearLanguage.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinearLanguageInterpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/linearlLanguage.g4" beforeDir="false" afterPath="$PROJECT_DIR$/input/input0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear language.iml" beforeDir="false" afterPath="$PROJECT_DIR$/linear language.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ccgomezn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1dFRBXIMJnyZgiB6KpMUZBjg0Zc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.ccgomezn.Main" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="linear language" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="input/input1.txt" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -51,13 +86,661 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="573" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1592018723976">
+    <state x="496" y="228" key="#Project_Structure" timestamp="1593461805283">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="573" y="404" key="com.intellij.ide.util.TipDialog/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1592018723976" />
+    <state x="496" y="228" key="#Project_Structure/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593461805283" />
+    <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593475735195">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1593475735195" />
+    <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593465598949" />
+    <state x="683" y="283" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1593465569141">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="683" y="283" key="#com.intellij.ide.macro.MacrosDialog/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593465569141" />
+    <state x="709" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1593298365060">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="709" y="279" key="#com.intellij.ide.util.MemberChooser/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593298365060" />
+    <state width="1750" height="302" key="GridCell.Tab.0.bottom" timestamp="1593475759724">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="302" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1593475759724" />
+    <state width="1750" height="302" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593466247961" />
+    <state width="1750" height="302" key="GridCell.Tab.0.center" timestamp="1593475759723">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="302" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1593475759723" />
+    <state width="1750" height="302" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593466247961" />
+    <state width="1750" height="302" key="GridCell.Tab.0.left" timestamp="1593475759723">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="302" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1593475759723" />
+    <state width="1750" height="302" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593466247960" />
+    <state width="1750" height="302" key="GridCell.Tab.0.right" timestamp="1593475759724">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="302" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1593475759724" />
+    <state width="1750" height="302" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593466247961" />
+    <state width="1750" height="372" key="GridCell.Tab.1.bottom" timestamp="1593466061455">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="372" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593466061455" />
+    <state width="1750" height="372" key="GridCell.Tab.1.center" timestamp="1593466061454">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="372" key="GridCell.Tab.1.center/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593466061454" />
+    <state width="1750" height="372" key="GridCell.Tab.1.left" timestamp="1593466061454">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="372" key="GridCell.Tab.1.left/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593466061454" />
+    <state width="1750" height="372" key="GridCell.Tab.1.right" timestamp="1593466061455">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="372" key="GridCell.Tab.1.right/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593466061455" />
+    <state x="397" y="210" key="SettingsEditor" timestamp="1593461840212">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="397" y="210" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593461840212" />
+    <state x="573" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1593295234613">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="573" y="404" key="com.intellij.ide.util.TipDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1593084290396" />
+    <state x="573" y="404" key="com.intellij.ide.util.TipDialog/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593295234613" />
+    <state x="679" y="486" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593365359198">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="679" y="486" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593365359198" />
+    <state x="421" y="314" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593445015120">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="421" y="314" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593445015120" />
+    <state x="477" y="296" width="837" height="550" key="find.popup" timestamp="1593409631610">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="477" y="296" width="837" height="550" key="find.popup/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593409631610" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1593410098824">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1593410098824" />
     <state x="273" y="193" key="new project wizard" timestamp="1592019050037">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="273" y="193" key="new project wizard/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1592019050037" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>350</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>351</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>352</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>353</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>354</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>355</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>356</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>358</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>360</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>361</line>
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>363</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>364</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>365</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>367</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>368</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>369</line>
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>370</line>
+          <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>373</line>
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>375</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>376</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>377</line>
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>379</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>380</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>378</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>381</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>382</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>383</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>384</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>304</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>305</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>303</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>344</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>321</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>322</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>323</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>324</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>326</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>327</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>328</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>330</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>331</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>332</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>333</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>334</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>753</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>754</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>755</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>758</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>757</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>759</line>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>760</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>761</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>762</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>763</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>785</line>
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>786</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>793</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>795</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>796</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>797</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>798</line>
+          <option name="timeStamp" value="385" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>799</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>800</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>801</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>803</line>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>802</line>
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>804</line>
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>806</line>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>807</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>808</line>
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>809</line>
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>810</line>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>811</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>812</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>813</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>814</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>815</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>816</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>817</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>818</line>
+          <option name="timeStamp" value="406" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>819</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>820</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>821</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>822</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>823</line>
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>824</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>826</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>825</line>
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>827</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>828</line>
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>829</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>830</line>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>831</line>
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>832</line>
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>836</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>835</line>
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>837</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>839</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>892</line>
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>893</line>
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>895</line>
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>896</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>897</line>
+          <option name="timeStamp" value="432" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>898</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>901</line>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>903</line>
+          <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>904</line>
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>905</line>
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>906</line>
+          <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>907</line>
+          <option name="timeStamp" value="439" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearLanguageInterpreter.java</url>
+          <line>908</line>
+          <option name="timeStamp" value="440" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/linear_language$Main.ic" NAME="Main Coverage Results" MODIFIED="1593400811811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

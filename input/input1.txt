@@ -1,0 +1,5 @@
+def deduct identity_A -| A, not A;
+def deduct identity_B -| B, not B;
+
+[[identity_A, identity_B] -> (x)] -> -&]
+

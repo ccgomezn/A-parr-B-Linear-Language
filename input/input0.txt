@@ -1,0 +1,28 @@
+string msj;
+bool ready;
+string msj_sent;
+int count;
+
+def proc ack(msj msj1) {
+    msj msj_final = "Llego el mensaje: " + msj1 + ".";
+    print(msj_final);
+    print(msj1);
+}
+
+
+def proc increase_count(count actual_count) {
+    count actual_new = actual_count + 1;
+    print(actual_new);
+}
+def func send (msj msj11 (x) ready ready1) -o (receive(msj11)) ;
+def func receive (msj msj) -o ((ready rd = True (x) msg_sent msj_snt = msj) (x) ack -> msj) ;
+def func increase (! count count) -o (increase_count -> count) ;
+
+
+msj msj1 = "hello";
+ready readyFlag = True;
+count actual = 1;
+
+send(msj1, readyFlag) ;
+increase(actual) ;
+increase(actual) ;
